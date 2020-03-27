@@ -828,3 +828,21 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.27-18.22.52:018][780]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={FD4CB121-4171-EABD-6024-7FB514310813}
 [2020.03.27-18.22.52:018][780]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={18A204B9-46E3-E882-4B87-6986E50C89E6}
 [2020.03.27-18.25.52:033][320]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={EB0A18D8-44BA-2B0C-C1F0-6D88158DDC3F}
+[2020.03.27-20.58.46:232][828]LogSlate: Took 0.085734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.27-20.58.47:662][828]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.03.27-20.59.24:010][305]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.03.27-20.59.24:011][305]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.043
+[2020.03.27-20.59.24:012][305]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/PullTest] ([1] browsable assets)...
+[2020.03.27-20.59.24:012][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/PullTest]
+[2020.03.27-20.59.24:012][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/PullTest" FILE="../../../../../CollabUnreal/KiraPietro/Kira/Saved/Autosaves/Game/ThirdPersonBP/PullTest_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.03.27-20.59.24:068][305]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/PullTest_Auto1AC23718C4332BA091B3469AB887A0A02.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Saved/Autosaves/Game/ThirdPersonBP/PullTest_Auto1.uasset'
+[2020.03.27-20.59.24:069][305]LogFileHelpers: Auto-saving content packages took 0.057
+[2020.03.27-21.13.33:552][275]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2020.03.27-21.13.33:552][275]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2020.03.27-21.16.24:565][191]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.03.27-21.16.25:836][191]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/ThirdPersonExampleMapC1088FD841E5844CD2F8D489FF82E9A4.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.03.27-21.16.26:187][191]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/ThirdPersonExampleMap_BuiltDataA83D8E15486F8C86511EB7A3E7AC1918.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.03.27-21.16.26:696][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.03.27-21.16.27:889][247]LogSlate: Window 'Save Content' being destroyed
+[2020.03.27-21.16.27:903][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/PullTest" FILE="../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/PullTest.uasset" SILENT=true
+[2020.03.27-21.16.27:912][247]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/PullTest2FE329C541BFCB1AF00CA9928B2C0975.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/PullTest.uasset'

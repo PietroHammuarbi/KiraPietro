@@ -561,3 +561,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.27-22.52.24:555][995]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/ThirdPersonExampleMap40D070A847019122266ED5ACD03F6851.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2020.03.27-22.52.24:643][995]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/ThirdPersonExampleMap_BuiltDataB402764D4D60CA7EB5F224901FCD837D.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
 [2020.03.27-22.52.25:693][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.03.27-22.57.31:039][623]LogSlate: Window 'Pick Parent Class' being destroyed

@@ -557,3 +557,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.27-22.49.23:055][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
 [2020.03.27-22.49.23:570][970]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/ThirdPersonExampleMap435D0A2143AB091499AD17905F833D7C.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2020.03.27-22.49.23:754][970]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/ThirdPersonExampleMap_BuiltData879F6E6D46121F2726B3B899C5C68698.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.03.27-22.52.24:470][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.03.27-22.52.24:555][995]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/ThirdPersonExampleMap40D070A847019122266ED5ACD03F6851.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.03.27-22.52.24:643][995]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/ThirdPersonExampleMap_BuiltDataB402764D4D60CA7EB5F224901FCD837D.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.03.27-22.52.25:693][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms

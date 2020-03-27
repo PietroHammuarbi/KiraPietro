@@ -569,3 +569,25 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.27-22.45.20:848][161]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
 [2020.03.27-22.46.19:184][ 41]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={83997921-43E3-72A3-9156-13B2DB552A91}
 [2020.03.27-22.46.54:607][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.27-22.53.25:330][299]LogSlate: Window 'New Level' being destroyed
+[2020.03.27-22.53.25:346][299]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.27-22.53.25:350][299]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.27-22.53.25:358][299]LightingResults: New page: Lighting Build
+[2020.03.27-22.53.25:359][299]LoadErrors: New page: Loading map: Template_Default.umap
+[2020.03.27-22.53.25:360][299]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.27-22.53.25:363][299]MapCheck: New page: Map Check
+[2020.03.27-22.53.25:363][299]LightingResults: New page: Lighting Build
+[2020.03.27-22.53.25:388][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.03.27-22.53.25:413][299]LogAIModule: Creating AISystem for world Untitled_1
+[2020.03.27-22.53.25:464][299]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.27-22.53.25:486][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.03.27-22.53.25:489][299]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.27-22.53.25:490][299]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,151ms to complete.
+[2020.03.27-22.53.25:490][299]LogFileHelpers: Loading map 'Template_Default' took 0.144
+[2020.03.27-22.53.34:317][676]LogSlate: Window 'Save Level As' being destroyed
+[2020.03.27-22.53.34:369][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.03.27-22.53.34:393][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.03.27-22.53.34:487][676]LogSavePackage: Moving '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/NewMap1CE2394324967CD6D4B50AEAA2C026E34.tmp' to '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/NewMap1.umap'
+[2020.03.27-22.53.34:510][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap1_BuiltData" FILE="../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/NewMap1_BuiltData.uasset" SILENT=true
+[2020.03.27-22.53.34:523][676]LogSavePackage: Moving '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/NewMap1_BuiltDataBC0D7C254E3C9F7C5EABE0B910CA78C2.tmp' to '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/NewMap1_BuiltData.uasset'
+[2020.03.27-22.53.34:530][676]LogFileHelpers: Saving map 'NewMap1' took 0.206

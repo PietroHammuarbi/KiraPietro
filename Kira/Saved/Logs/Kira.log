@@ -1,4 +1,4 @@
-﻿Log file open, 03/27/20 23:45:03
+﻿Log file open, 03/28/20 00:09:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,8 +8,8 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: Kira
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.673405
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.054374
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -121,13 +121,13 @@ LogInit: Build: ++UE4+Release-4.23-CL-9631420
 LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
 LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
 LogInit: Net CL: 8386587
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, GPU: NVIDIA GeForce RTX 2060 SUPER
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1050 Ti
 LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
 LogInit: Command Line: 
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Unreal/UE_4.23/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -157,675 +157,412 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.03.27-22.45.04:452][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.03.27-22.45.04:452][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.03.27-22.45.04:452][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Engine.ini]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Engine.ini]
-[2020.03.27-22.45.04:453][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Engine.ini]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Engine.ini]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.03.27-22.45.04:453][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Engine.ini]
-[2020.03.27-22.45.04:453][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Engine.ini]
-[2020.03.27-22.45.04:459][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.27-22.45.04:459][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.27-22.45.04:460][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.27-22.45.04:461][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.27-22.45.04:462][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.27-22.45.04:470][  0]LogHAL: Display: Platform has ~ 16 GB [17096175616 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.03.27-22.45.04:470][  0]LogInit: Going up to parent DeviceProfile []
-[2020.03.27-22.45.04:471][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.27-22.45.04:471][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Scalability.ini]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.27-22.45.04:472][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.03.27-22.45.04:476][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.03.27-22.45.04:476][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.03.27-22.45.04:476][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Config/Windows/Engine.ini]
-[2020.03.27-22.45.04:478][  0]LogInit: Computer: DESKTOP-NKO2QA7
-[2020.03.27-22.45.04:478][  0]LogInit: User: VGRig
-[2020.03.27-22.45.04:478][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.03.27-22.45.04:478][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.27-22.45.04:478][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.03.27-22.45.04:478][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.27-22.45.04:478][  0]LogMemory: Process Physical Memory: 99.96 MB used, 99.96 MB peak
-[2020.03.27-22.45.04:478][  0]LogMemory: Process Virtual Memory: 88.18 MB used, 88.18 MB peak
-[2020.03.27-22.45.04:478][  0]LogMemory: Physical Memory: 3760.83 MB used,  12543.36 MB free, 16304.18 MB total
-[2020.03.27-22.45.04:478][  0]LogMemory: Virtual Memory: 4652.21 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2020.03.27-22.45.04:485][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.03.27-22.45.04:721][  0]LogInit: Using OS detected language (it-IT).
-[2020.03.27-22.45.04:721][  0]LogInit: Using OS detected locale (it-IT).
-[2020.03.27-22.45.04:723][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
-[2020.03.27-22.45.04:723][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/it/Editor.locres' could not be opened for reading!
-[2020.03.27-22.45.04:723][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/it/EditorTutorials.locres' could not be opened for reading!
-[2020.03.27-22.45.04:723][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/it/Keywords.locres' could not be opened for reading!
-[2020.03.27-22.45.04:723][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/it/Category.locres' could not be opened for reading!
-[2020.03.27-22.45.04:723][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/it/ToolTips.locres' could not be opened for reading!
-[2020.03.27-22.45.04:724][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/it/PropertyNames.locres' could not be opened for reading!
-[2020.03.27-22.45.04:724][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/it/Engine.locres' could not be opened for reading!
-[2020.03.27-22.45.04:747][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.27-22.45.04:833][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.03.27-22.45.04:833][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.03.27-22.45.06:952][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.27-22.45.06:952][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.27-22.45.07:041][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
-[2020.03.27-22.45.07:041][  0]LogD3D11RHI:       8031/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.03.27-22.45.07:044][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.27-22.45.07:044][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.27-22.45.07:044][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.27-22.45.07:051][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.27-22.45.07:051][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
-[2020.03.27-22.45.07:051][  0]LogWindows: EnumDisplayDevices:
-[2020.03.27-22.45.07:051][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
-[2020.03.27-22.45.07:052][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
-[2020.03.27-22.45.07:052][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
-[2020.03.27-22.45.07:052][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
-[2020.03.27-22.45.07:052][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.03.27-22.45.07:052][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
-[2020.03.27-22.45.07:052][  0]LogD3D11RHI:   Driver Version: 442.19 (internal:26.21.14.4219, unified:442.19)
-[2020.03.27-22.45.07:053][  0]LogD3D11RHI:      Driver Date: 1-29-2020
-[2020.03.27-22.45.07:053][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2020.03.27-22.45.07:096][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.27-22.45.07:136][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.03.27-22.45.07:484][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.03.27-22.45.07:493][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.03.27-22.45.07:503][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.03.27-22.45.07:512][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.03.27-22.45.07:526][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.03.27-22.45.07:536][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.03.27-22.45.07:546][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.03.27-22.45.07:556][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.03.27-22.45.07:563][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.03.27-22.45.07:603][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.03.27-22.45.07:606][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.03.27-22.45.07:637][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.03.27-22.45.07:637][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.03.27-22.45.07:650][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.03.27-22.45.07:650][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.03.27-22.45.07:659][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.03.27-22.45.07:668][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.03.27-22.45.07:676][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.03.27-22.45.07:693][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.03.27-22.45.07:720][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.03.27-22.45.07:720][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.03.27-22.45.07:720][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.27-22.45.07:763][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.03.27-22.45.07:913][  0]LogShaderCompilers: Guid format shader working directory is -51 characters bigger than the processId version (../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Intermediate/Shaders/WorkingDirectory/12568/).
-[2020.03.27-22.45.07:914][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/VG Rig/AppData/Local/Temp/UnrealShaderWorkingDir/7C8186EB48D24E92F86527BEA1FC1D18/'.
-[2020.03.27-22.45.07:917][  0]LogXGEController: Cleaning working directory: C:/Users/VG Rig/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.03.27-22.45.07:918][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.03.27-22.45.07:918][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.03.27-22.45.07:918][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.27-22.45.10:088][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.27-22.45.10:263][  0]LogDerivedDataCache: Loaded boot cache 0.17s 73MB C:/Users/VG Rig/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.03.27-22.45.10:263][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/VG Rig/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2020.03.27-22.45.10:263][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.27-22.45.10:263][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.27-22.45.10:263][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.27-22.45.10:263][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.27-22.45.10:285][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.27-22.45.10:285][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.27-22.45.10:285][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.03.27-22.45.10:287][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VG Rig/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.27-22.45.10:287][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.03.27-22.45.10:287][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.03.27-22.45.10:306][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.27-22.45.10:315][  0]LogSlate: Using FreeType 2.6.0
-[2020.03.27-22.45.10:327][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.27-22.45.10:559][  0]LogAssetRegistry: FAssetRegistry took 0.0054 seconds to start up
-[2020.03.27-22.45.10:931][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.27-22.45.11:252][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.27-22.45.11:252][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.03.27-22.45.11:252][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.03.27-22.45.11:252][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.03.27-22.45.11:253][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.03.27-22.45.11:301][  0]LogNetVersion: Kira 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 697289716)
-[2020.03.27-22.45.12:271][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.042776 seconds
-[2020.03.27-22.45.12:277][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2020.03.27-22.45.12:277][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2020.03.27-22.45.12:277][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.27-22.45.15:278][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.27-22.45.15:285][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.27-22.45.15:409][  0]SourceControl: Source control is disabled
-[2020.03.27-22.45.15:410][  0]SourceControl: Source control is disabled
-[2020.03.27-22.45.15:423][  0]SourceControl: Source control is disabled
-[2020.03.27-22.45.15:428][  0]SourceControl: Source control is disabled
-[2020.03.27-22.45.15:439][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.03.27-22.45.15:440][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.03.27-22.45.15:686][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.27-22.45.15:923][  0]LogOcInput: OculusInput pre-init called
-[2020.03.27-22.45.15:937][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.03.27-22.45.15:937][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.03.27-22.45.16:060][  0]LogEngine: Initializing Engine...
-[2020.03.27-22.45.16:062][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.27-22.45.16:066][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
-[2020.03.27-22.45.16:261][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.03.27-22.45.16:305][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.27-22.45.16:347][  0]LogInit: XAudio2 using 'Altoparlanti (3- GAMDIAS GAMING HEADSET)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.03.27-22.45.16:386][  0]LogInit: FAudioDevice initialized.
-[2020.03.27-22.45.16:386][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.03.27-22.45.16:538][  0]LogDerivedDataCache: Saved boot cache 0.15s 73MB C:/Users/VG Rig/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.03.27-22.45.16:543][  0]LogInit: Texture streaming: Enabled
-[2020.03.27-22.45.16:567][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.27-22.45.16:567][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.03.27-22.45.16:569][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.03.27-22.45.16:631][  0]LogInit: Transaction tracking system initialized
-[2020.03.27-22.45.16:708][  0]BlueprintLog: New page: Editor Load
-[2020.03.27-22.45.16:926][  0]LocalizationService: Localization service is disabled
-[2020.03.27-22.45.17:148][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.03.27-22.45.17:148][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.03.27-22.45.17:313][  0]LogFileCache: Scanning file cache for directory 'C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/' took 0.00s
-[2020.03.27-22.45.17:313][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.27-22.45.17:313][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.27-22.45.17:526][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.17:526][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.17:526][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.17:527][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.17:527][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.17:527][  0]LoadErrors: Failed to load /Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube.Cube Referenced by Cube
-[2020.03.27-22.45.17:527][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.17:527][  0]LoadErrors: Failed to load /Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube.Cube Referenced by Cube
-[2020.03.27-22.45.17:527][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
-[2020.03.27-22.45.17:737][  0]SourceControl: Source control is disabled
-[2020.03.27-22.45.17:740][  0]LightingResults: New page: Lighting Build
-[2020.03.27-22.45.17:747][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.03.27-22.45.17:750][  0]MapCheck: New page: Map Check
-[2020.03.27-22.45.17:750][  0]LightingResults: New page: Lighting Build
-[2020.03.27-22.45.17:779][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
-[2020.03.27-22.45.18:139][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.03.27-22.45.18:164][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.27-22.45.18:197][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
-[2020.03.27-22.45.18:198][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.27-22.45.18:198][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,384ms to complete.
-[2020.03.27-22.45.18:198][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.460
-[2020.03.27-22.45.18:356][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.27-22.45.18:363][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.27-22.45.18:369][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.27-22.45.18:375][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.27-22.45.18:395][  0]LogCollectionManager: Loaded 0 collections in 0.001992 seconds
-[2020.03.27-22.45.18:420][  0]LogFileCache: Scanning file cache for directory 'C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/Collections/' took 0.00s
-[2020.03.27-22.45.18:420][  0]LogFileCache: Scanning file cache for directory 'C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/Developers/VGRig/Collections/' took 0.00s
-[2020.03.27-22.45.18:420][  0]LogFileCache: Scanning file cache for directory 'C:/Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/Collections/' took 0.00s
-[2020.03.27-22.45.18:420][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2020.03.27-22.45.18:430][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2863 classes and 680 folders.
-[2020.03.27-22.45.18:443][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.27-22.45.18:745][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.27-22.45.18:759][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2020.03.27-22.45.18:927][  0]LogSlate: Took 0.006413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.27-22.45.18:934][  0]LogSlate: Took 0.005071 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.27-22.45.18:943][  0]LogSlate: Took 0.005084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.27-22.45.19:038][  0]LogRenderer: Reallocating scene render targets to support 1272x676 Format 10 NumSamples 1 (Frame:1).
-[2020.03.27-22.45.19:182][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.27-22.45.19:183][  0]LogLoad: (Engine Initialization) Total time: 43.62 seconds
-[2020.03.27-22.45.19:183][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.27-22.45.19:201][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.19:201][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.19:201][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.19:201][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.19:202][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.19:202][  0]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-22.45.19:233][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.03.27-22.45.19:235][  0]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2020.03.27-22.45.19:295][  0]LogSlate: Took 0.005125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.27-22.45.20:846][161]LogAssetRegistry: Asset discovery search completed in 10.2880 seconds
-[2020.03.27-22.45.20:848][161]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2020.03.27-22.45.20:848][161]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
-[2020.03.27-22.46.19:184][ 41]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={83997921-43E3-72A3-9156-13B2DB552A91}
-[2020.03.27-22.46.54:607][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.03.27-22.53.25:330][299]LogSlate: Window 'New Level' being destroyed
-[2020.03.27-22.53.25:346][299]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.27-22.53.25:350][299]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.27-22.53.25:358][299]LightingResults: New page: Lighting Build
-[2020.03.27-22.53.25:359][299]LoadErrors: New page: Loading map: Template_Default.umap
-[2020.03.27-22.53.25:360][299]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.03.27-22.53.25:363][299]MapCheck: New page: Map Check
-[2020.03.27-22.53.25:363][299]LightingResults: New page: Lighting Build
-[2020.03.27-22.53.25:388][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
-[2020.03.27-22.53.25:413][299]LogAIModule: Creating AISystem for world Untitled_1
-[2020.03.27-22.53.25:464][299]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.27-22.53.25:486][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
-[2020.03.27-22.53.25:489][299]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.27-22.53.25:490][299]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,151ms to complete.
-[2020.03.27-22.53.25:490][299]LogFileHelpers: Loading map 'Template_Default' took 0.144
-[2020.03.27-22.53.34:317][676]LogSlate: Window 'Save Level As' being destroyed
-[2020.03.27-22.53.34:369][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
-[2020.03.27-22.53.34:393][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
-[2020.03.27-22.53.34:487][676]LogSavePackage: Moving '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/NewMap1CE2394324967CD6D4B50AEAA2C026E34.tmp' to '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/NewMap1.umap'
-[2020.03.27-22.53.34:510][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap1_BuiltData" FILE="../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/NewMap1_BuiltData.uasset" SILENT=true
-[2020.03.27-22.53.34:523][676]LogSavePackage: Moving '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/NewMap1_BuiltDataBC0D7C254E3C9F7C5EABE0B910CA78C2.tmp' to '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/NewMap1_BuiltData.uasset'
-[2020.03.27-22.53.34:530][676]LogFileHelpers: Saving map 'NewMap1' took 0.206
-[2020.03.27-23.02.16:674][495]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-23.02.16:674][495]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-23.02.16:674][495]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-23.02.16:674][495]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-23.02.16:674][495]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-23.02.16:674][495]LoadErrors: Failed to load /Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube.Cube Referenced by Cube
-[2020.03.27-23.02.16:675][495]LogLinker: Warning: While loading '../../../Engine/Content/BasicShapes/Cube.uasset' failed to load '/Game/AbandonedFactory/BaseMaterials/PIETRO/ACQUA_FORESTA/Cube': Can't find file.
-[2020.03.27-23.02.17:037][538]LogActorFactory: Actor Factory created Sphere
-[2020.03.27-23.02.18:710][737]LogActorFactory: Actor Factory created Sphere
-[2020.03.27-23.02.21:658][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.03.27-23.02.22:684][200]LogAssetEditorManager: Opening Asset editor for Material /Game/TestMaterialRed.TestMaterialRed
-[2020.03.27-23.02.22:688][200]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.22:993][200]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.23:015][200]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
-[2020.03.27-23.02.23:015][200]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2020.03.27-23.02.23:038][200]LogSlate: Took 0.005234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.03.27-23.02.23:842][272]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
-[2020.03.27-23.02.23:853][273]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
-[2020.03.27-23.02.24:135][303]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
-[2020.03.27-23.02.24:145][304]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
-[2020.03.27-23.02.24:359][327]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
-[2020.03.27-23.02.24:390][330]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
-[2020.03.27-23.02.24:509][343]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
-[2020.03.27-23.02.24:609][353]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
-[2020.03.27-23.02.24:767][370]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
-[2020.03.27-23.02.25:182][411]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
-[2020.03.27-23.02.25:453][438]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
-[2020.03.27-23.02.25:576][451]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
-[2020.03.27-23.02.26:062][500]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
-[2020.03.27-23.02.26:189][514]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
-[2020.03.27-23.02.26:319][528]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
-[2020.03.27-23.02.26:738][571]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
-[2020.03.27-23.02.26:858][584]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
-[2020.03.27-23.02.27:016][601]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
-[2020.03.27-23.02.27:274][628]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
-[2020.03.27-23.02.27:604][661]MaterialEditorStats: Base pass shader: 117 instructions
-[2020.03.27-23.02.27:604][661]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
-[2020.03.27-23.02.27:604][661]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2020.03.27-23.02.27:604][661]MaterialEditorStats: Texture samplers: 3/16
-[2020.03.27-23.02.31:419][ 97]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.31:433][ 97]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2020.03.27-23.02.31:441][ 97]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
-[2020.03.27-23.02.31:441][ 97]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2020.03.27-23.02.31:475][ 98]LogSlate: Took 0.004567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.03.27-23.02.31:752][127]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
-[2020.03.27-23.02.31:797][132]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
-[2020.03.27-23.02.32:011][154]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
-[2020.03.27-23.02.32:049][158]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2020.03.27-23.02.32:355][189]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
-[2020.03.27-23.02.32:428][197]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
-[2020.03.27-23.02.32:579][213]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
-[2020.03.27-23.02.32:720][228]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
-[2020.03.27-23.02.32:847][241]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
-[2020.03.27-23.02.33:385][295]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
-[2020.03.27-23.02.33:567][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
-[2020.03.27-23.02.33:789][332]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
-[2020.03.27-23.02.34:485][400]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
-[2020.03.27-23.02.34:739][426]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
-[2020.03.27-23.02.34:914][444]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
-[2020.03.27-23.02.35:277][484]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
-[2020.03.27-23.02.35:417][499]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.35:436][499]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2020.03.27-23.02.35:462][501]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
-[2020.03.27-23.02.35:724][528]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
-[2020.03.27-23.02.35:912][548]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
-[2020.03.27-23.02.36:114][568]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
-[2020.03.27-23.02.36:251][582]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
-[2020.03.27-23.02.36:428][600]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
-[2020.03.27-23.02.36:443][601]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.36:461][601]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2020.03.27-23.02.36:468][601]LogSlate: Window 'Color Picker' being destroyed
-[2020.03.27-23.02.36:566][611]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
-[2020.03.27-23.02.36:701][625]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
-[2020.03.27-23.02.36:875][643]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
-[2020.03.27-23.02.37:065][663]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
-[2020.03.27-23.02.37:344][692]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
-[2020.03.27-23.02.37:514][709]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
-[2020.03.27-23.02.37:820][740]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
-[2020.03.27-23.02.37:952][754]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
-[2020.03.27-23.02.38:133][772]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
-[2020.03.27-23.02.38:231][782]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
-[2020.03.27-23.02.38:362][797]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
-[2020.03.27-23.02.38:682][832]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
-[2020.03.27-23.02.38:848][851]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
-[2020.03.27-23.02.38:970][865]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
-[2020.03.27-23.02.39:342][906]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
-[2020.03.27-23.02.39:548][929]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
-[2020.03.27-23.02.39:718][948]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
-[2020.03.27-23.02.40:057][985]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
-[2020.03.27-23.02.40:193][  0]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.40:218][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
-[2020.03.27-23.02.40:218][  0]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2020.03.27-23.02.40:499][ 27]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
-[2020.03.27-23.02.40:877][ 65]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
-[2020.03.27-23.02.41:016][ 80]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
-[2020.03.27-23.02.41:474][126]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
-[2020.03.27-23.02.41:505][129]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2020.03.27-23.02.41:640][143]LogMaterialEditor: Applying material TestMaterialRed
-[2020.03.27-23.02.42:006][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
-[2020.03.27-23.02.42:006][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
-[2020.03.27-23.02.42:006][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
-[2020.03.27-23.02.42:006][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
-[2020.03.27-23.02.42:006][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
-[2020.03.27-23.02.42:020][143]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.42:082][143]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.42:101][143]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.42:136][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
-[2020.03.27-23.02.42:145][143]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 49
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 48
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 47
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 46
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 45
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 44
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 43
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 42
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 41
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 40
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 39
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 38
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 37
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 35
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 34
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 33
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 32
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 28
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
-[2020.03.27-23.02.44:947][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
-[2020.03.27-23.02.44:948][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
-[2020.03.27-23.02.44:948][143]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
-[2020.03.27-23.02.44:948][143]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
-[2020.03.27-23.02.44:951][143]TextureStreamingBuild: Display: Compiling optional shaders took 2.815 seconds.
-[2020.03.27-23.02.44:973][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
-[2020.03.27-23.02.46:623][298]LogMaterialEditor: Saving and Compiling material TestMaterialRed
-[2020.03.27-23.02.47:821][298]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
-[2020.03.27-23.02.47:821][298]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
-[2020.03.27-23.02.47:837][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMaterialRed" FILE="../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/TestMaterialRed.uasset" SILENT=true
-[2020.03.27-23.02.47:852][298]LogSavePackage: Moving '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/TestMaterialRed1CF04FCD4C9E7A03E20E629F5B3A77EB.tmp' to '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/TestMaterialRed.uasset'
-[2020.03.27-23.02.47:867][298]MaterialEditorStats: Base pass shader: 119 instructions
-[2020.03.27-23.02.47:867][298]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
-[2020.03.27-23.02.47:867][298]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2020.03.27-23.02.47:867][298]MaterialEditorStats: Texture samplers: 3/16
-[2020.03.27-23.02.51:885][748]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.51:899][748]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
-[2020.03.27-23.02.51:899][748]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2020.03.27-23.02.51:903][748]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2020.03.27-23.02.52:331][790]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
-[2020.03.27-23.02.52:395][797]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
-[2020.03.27-23.02.52:640][824]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
-[2020.03.27-23.02.52:649][825]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2020.03.27-23.02.52:897][852]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
-[2020.03.27-23.02.52:944][857]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
-[2020.03.27-23.02.53:055][869]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
-[2020.03.27-23.02.53:146][879]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
-[2020.03.27-23.02.53:271][893]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
-[2020.03.27-23.02.53:346][901]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.53:365][901]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2020.03.27-23.02.53:824][945]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
-[2020.03.27-23.02.54:057][968]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
-[2020.03.27-23.02.54:337][996]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
-[2020.03.27-23.02.54:494][ 12]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
-[2020.03.27-23.02.54:631][ 26]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
-[2020.03.27-23.02.54:720][ 36]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2020.03.27-23.02.54:745][ 38]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.54:766][ 38]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2020.03.27-23.02.54:773][ 38]LogSlate: Window 'Color Picker' being destroyed
-[2020.03.27-23.02.54:938][ 55]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
-[2020.03.27-23.02.55:156][ 77]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
-[2020.03.27-23.02.55:332][ 96]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
-[2020.03.27-23.02.55:562][120]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
-[2020.03.27-23.02.55:789][144]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
-[2020.03.27-23.02.56:029][169]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
-[2020.03.27-23.02.56:177][184]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
-[2020.03.27-23.02.56:344][201]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
-[2020.03.27-23.02.56:542][221]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
-[2020.03.27-23.02.56:630][231]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 16
-[2020.03.27-23.02.56:639][232]LogMaterialEditor: Applying material TestMaterialRed
-[2020.03.27-23.02.57:008][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
-[2020.03.27-23.02.57:008][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
-[2020.03.27-23.02.57:025][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
-[2020.03.27-23.02.57:025][232]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.57:085][232]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.57:101][232]LogMaterial: Display: Missing cached shader map for material TestMaterialRed, compiling. 
-[2020.03.27-23.02.57:135][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 46
-[2020.03.27-23.02.57:135][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
-[2020.03.27-23.02.57:142][232]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 47
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 46
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 45
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 44
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 43
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 42
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 41
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 40
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 39
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 38
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 37
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 36
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 35
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 34
-[2020.03.27-23.02.59:725][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 33
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 32
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 30
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
-[2020.03.27-23.02.59:726][232]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
-[2020.03.27-23.02.59:730][232]TextureStreamingBuild: Display: Compiling optional shaders took 2.596 seconds.
-[2020.03.27-23.02.59:751][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
-[2020.03.27-23.03.00:505][291]LogMaterialEditor: Saving and Compiling material TestMaterialRed
-[2020.03.27-23.03.02:076][291]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
-[2020.03.27-23.03.02:076][291]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
-[2020.03.27-23.03.02:091][291]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMaterialRed" FILE="../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/TestMaterialRed.uasset" SILENT=true
-[2020.03.27-23.03.02:110][291]LogSavePackage: Moving '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/TestMaterialRedC228BA6843C8BA4BA5BFFB8EE25EAF5F.tmp' to '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/TestMaterialRed.uasset'
-[2020.03.27-23.03.02:124][291]MaterialEditorStats: Base pass shader: 119 instructions
-[2020.03.27-23.03.02:124][291]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 193 instructions
-[2020.03.27-23.03.02:124][291]MaterialEditorStats: Base pass vertex shader: 40 instructions
-[2020.03.27-23.03.02:124][291]MaterialEditorStats: Texture samplers: 3/16
-[2020.03.27-23.03.02:629][348]LogSlate: Window 'TestMaterialRed' being destroyed
-[2020.03.27-23.03.02:653][348]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2020.03.27-23.03.09:951][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.03.27-23.03.10:067][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
-[2020.03.27-23.03.10:157][226]LogSavePackage: Moving '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/NewMap1FA230B884D75BA252953B4955B0D10C5.tmp' to '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/NewMap1.umap'
-[2020.03.27-23.03.10:176][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap1_BuiltData" FILE="../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/NewMap1_BuiltData.uasset" SILENT=true
-[2020.03.27-23.03.10:192][226]LogSavePackage: Moving '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Saved/NewMap1_BuiltData07043E734D3F62AED2F566B87F5616BF.tmp' to '../../../../../../Users/VG Rig/Documents/pietroclaudio/CollabPietroClaudio/KiraPietroClaudio/Kira/Content/NewMap1_BuiltData.uasset'
-[2020.03.27-23.03.11:733][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Engine.ini]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Engine.ini]
+[2020.03.27-23.09.04:064][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Engine.ini]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Engine.ini]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.27-23.09.04:064][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Engine.ini]
+[2020.03.27-23.09.04:064][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Engine.ini]
+[2020.03.27-23.09.04:066][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.27-23.09.04:066][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.27-23.09.04:066][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.27-23.09.04:066][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.27-23.09.04:068][  0]LogHAL: Display: Platform has ~ 16 GB [17122725888 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.27-23.09.04:068][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.27-23.09.04:068][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:068][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.27-23.09.04:068][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.27-23.09.04:068][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:068][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.27-23.09.04:068][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:068][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.27-23.09.04:068][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.27-23.09.04:068][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.27-23.09.04:068][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Scalability.ini]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.27-23.09.04:069][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/CollabUnreal/KiraPietro/Kira/Saved/Config/Windows/Engine.ini]
+[2020.03.27-23.09.04:069][  0]LogInit: Computer: DESKTOP-OFMRNL1
+[2020.03.27-23.09.04:069][  0]LogInit: User: claudio
+[2020.03.27-23.09.04:070][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.03.27-23.09.04:070][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.27-23.09.04:070][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.27-23.09.04:070][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.27-23.09.04:070][  0]LogMemory: Process Physical Memory: 100.92 MB used, 100.93 MB peak
+[2020.03.27-23.09.04:070][  0]LogMemory: Process Virtual Memory: 101.77 MB used, 101.77 MB peak
+[2020.03.27-23.09.04:070][  0]LogMemory: Physical Memory: 5650.00 MB used,  10679.50 MB free, 16329.50 MB total
+[2020.03.27-23.09.04:070][  0]LogMemory: Virtual Memory: 4701.16 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2020.03.27-23.09.04:072][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.27-23.09.04:091][  0]LogInit: Using OS detected language (it-IT).
+[2020.03.27-23.09.04:091][  0]LogInit: Using OS detected locale (it-IT).
+[2020.03.27-23.09.04:092][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
+[2020.03.27-23.09.04:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/it/Editor.locres' could not be opened for reading!
+[2020.03.27-23.09.04:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/it/EditorTutorials.locres' could not be opened for reading!
+[2020.03.27-23.09.04:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/it/Keywords.locres' could not be opened for reading!
+[2020.03.27-23.09.04:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/it/Category.locres' could not be opened for reading!
+[2020.03.27-23.09.04:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/it/ToolTips.locres' could not be opened for reading!
+[2020.03.27-23.09.04:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/it/PropertyNames.locres' could not be opened for reading!
+[2020.03.27-23.09.04:092][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/it/Engine.locres' could not be opened for reading!
+[2020.03.27-23.09.04:093][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.27-23.09.04:116][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.27-23.09.04:116][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.27-23.09.04:292][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.27-23.09.04:292][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.27-23.09.04:348][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.03.27-23.09.04:348][  0]LogD3D11RHI:       4018/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.03.27-23.09.04:349][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.27-23.09.04:349][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.27-23.09.04:349][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.27-23.09.04:354][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.27-23.09.04:354][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.27-23.09.04:354][  0]LogWindows: EnumDisplayDevices:
+[2020.03.27-23.09.04:354][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2020.03.27-23.09.04:355][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.03.27-23.09.04:355][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.03.27-23.09.04:355][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.03.27-23.09.04:355][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.27-23.09.04:355][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.03.27-23.09.04:355][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.03.27-23.09.04:355][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.03.27-23.09.04:355][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.03.27-23.09.04:387][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.27-23.09.04:409][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.27-23.09.04:638][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.03.27-23.09.04:644][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.03.27-23.09.04:650][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.03.27-23.09.04:655][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.03.27-23.09.04:661][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.03.27-23.09.04:667][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.03.27-23.09.04:673][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.27-23.09.04:679][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.03.27-23.09.04:682][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.03.27-23.09.04:709][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.03.27-23.09.04:710][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.03.27-23.09.04:723][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.03.27-23.09.04:723][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.03.27-23.09.04:734][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.03.27-23.09.04:734][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.03.27-23.09.04:740][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.03.27-23.09.04:746][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.27-23.09.04:751][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.03.27-23.09.04:757][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.03.27-23.09.04:775][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.03.27-23.09.04:775][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.03.27-23.09.04:775][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.27-23.09.04:781][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.27-23.09.04:812][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../CollabUnreal/KiraPietro/Kira/Intermediate/Shaders/WorkingDirectory/5692/).
+[2020.03.27-23.09.04:812][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/claudio/AppData/Local/Temp/UnrealShaderWorkingDir/7AA8FB624CD08A61D30303BD5F75323C/'.
+[2020.03.27-23.09.04:813][  0]LogXGEController: Cleaning working directory: C:/Users/claudio/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.03.27-23.09.04:813][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.27-23.09.04:813][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.27-23.09.04:813][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.27-23.09.05:308][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.27-23.09.05:355][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/claudio/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.03.27-23.09.05:355][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/claudio/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.03.27-23.09.05:355][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../CollabUnreal/KiraPietro/Kira/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.27-23.09.05:355][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.27-23.09.05:355][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../CollabUnreal/KiraPietro/Kira/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.27-23.09.05:355][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.27-23.09.05:364][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.27-23.09.05:364][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.27-23.09.05:364][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.27-23.09.05:365][  0]LogDerivedDataCache: Using Local data cache path C:/Users/claudio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.27-23.09.05:365][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.27-23.09.05:365][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.27-23.09.05:382][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.27-23.09.05:383][  0]LogSlate: Using FreeType 2.6.0
+[2020.03.27-23.09.05:384][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.27-23.09.05:433][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2020.03.27-23.09.05:627][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.27-23.09.05:739][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.27-23.09.05:739][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.27-23.09.05:739][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.27-23.09.05:739][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.27-23.09.05:739][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.27-23.09.05:747][  0]LogNetVersion: Kira 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 697289716)
+[2020.03.27-23.09.06:064][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.032957 seconds
+[2020.03.27-23.09.06:069][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.03.27-23.09.06:069][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.03.27-23.09.06:069][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.27-23.09.06:765][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.27-23.09.06:767][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.27-23.09.06:810][  0]SourceControl: Source control is disabled
+[2020.03.27-23.09.06:810][  0]SourceControl: Source control is disabled
+[2020.03.27-23.09.06:811][  0]SourceControl: Source control is disabled
+[2020.03.27-23.09.06:812][  0]SourceControl: Source control is disabled
+[2020.03.27-23.09.06:876][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.27-23.09.06:957][  0]LogOcInput: OculusInput pre-init called
+[2020.03.27-23.09.06:961][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.27-23.09.06:961][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.27-23.09.07:011][  0]LogEngine: Initializing Engine...
+[2020.03.27-23.09.07:012][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.27-23.09.07:013][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.27-23.09.07:186][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.27-23.09.07:195][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.27-23.09.07:215][  0]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.27-23.09.07:226][  0]LogInit: FAudioDevice initialized.
+[2020.03.27-23.09.07:226][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.27-23.09.07:300][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/claudio/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.03.27-23.09.07:305][  0]LogInit: Texture streaming: Enabled
+[2020.03.27-23.09.07:316][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.27-23.09.07:316][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.27-23.09.07:317][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.27-23.09.07:352][  0]LogInit: Transaction tracking system initialized
+[2020.03.27-23.09.07:368][  0]BlueprintLog: New page: Editor Load
+[2020.03.27-23.09.07:419][  0]LocalizationService: Localization service is disabled
+[2020.03.27-23.09.07:581][  0]LogFileCache: Scanning file cache for directory 'D:/CollabUnreal/KiraPietro/Kira/Content/' took 0.00s
+[2020.03.27-23.09.07:581][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.27-23.09.07:581][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.27-23.09.07:711][  0]SourceControl: Source control is disabled
+[2020.03.27-23.09.07:711][  0]Cmd: MAP LOAD FILE="../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.27-23.09.07:711][  0]LightingResults: New page: Lighting Build
+[2020.03.27-23.09.07:713][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.27-23.09.07:713][  0]MapCheck: New page: Map Check
+[2020.03.27-23.09.07:713][  0]LightingResults: New page: Lighting Build
+[2020.03.27-23.09.07:739][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.03.27-23.09.07:923][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.27-23.09.07:928][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.27-23.09.07:955][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.03.27-23.09.07:955][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.27-23.09.07:955][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,091ms to complete.
+[2020.03.27-23.09.07:955][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.243
+[2020.03.27-23.09.08:857][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.03.27-23.09.08:887][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.27-23.09.08:892][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.27-23.09.08:897][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.27-23.09.08:901][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.27-23.09.08:905][  0]LogCollectionManager: Loaded 0 collections in 0.000868 seconds
+[2020.03.27-23.09.08:910][  0]LogFileCache: Scanning file cache for directory 'D:/CollabUnreal/KiraPietro/Kira/Saved/Collections/' took 0.00s
+[2020.03.27-23.09.08:910][  0]LogFileCache: Scanning file cache for directory 'D:/CollabUnreal/KiraPietro/Kira/Content/Developers/claudio/Collections/' took 0.00s
+[2020.03.27-23.09.08:910][  0]LogFileCache: Scanning file cache for directory 'D:/CollabUnreal/KiraPietro/Kira/Content/Collections/' took 0.00s
+[2020.03.27-23.09.08:910][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.03.27-23.09.08:917][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2863 classes and 680 folders.
+[2020.03.27-23.09.08:920][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.27-23.09.08:966][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.27-23.09.08:971][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.03.27-23.09.08:981][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.27-23.09.08:982][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.27-23.09.08:986][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.27-23.09.09:035][  0]LogRenderer: Reallocating scene render targets to support 792x428 Format 10 NumSamples 1 (Frame:1).
+[2020.03.27-23.09.09:068][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.27-23.09.09:101][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.27-23.09.09:102][  0]LogLoad: (Engine Initialization) Total time: 6.20 seconds
+[2020.03.27-23.09.09:102][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.27-23.09.09:139][  0]LogAssetRegistry: Asset discovery search completed in 3.7073 seconds
+[2020.03.27-23.09.09:141][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2020.03.27-23.09.09:141][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2020.03.27-23.09.09:142][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.27-23.09.11:399][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.27-23.09.12:784][428]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.27-23.09.12:800][428]LogAIModule: Creating AISystem for world NewMap1
+[2020.03.27-23.09.12:804][428]LogAssetEditorManager: Opening Asset editor for World /Game/NewMap1.NewMap1
+[2020.03.27-23.09.12:828][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.03.27-23.09.12:828][428]Cmd: MAP LOAD FILE="../../../../../CollabUnreal/KiraPietro/Kira/Content/NewMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.27-23.09.12:828][428]LightingResults: New page: Lighting Build
+[2020.03.27-23.09.12:829][428]LoadErrors: New page: Loading map: NewMap1.umap
+[2020.03.27-23.09.12:829][428]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.27-23.09.12:829][428]MapCheck: New page: Map Check
+[2020.03.27-23.09.12:829][428]LightingResults: New page: Lighting Build
+[2020.03.27-23.09.12:852][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.03.27-23.09.12:854][428]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.27-23.09.12:877][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.03.27-23.09.12:889][428]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.27-23.09.12:889][428]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,06ms to complete.
+[2020.03.27-23.09.12:889][428]LogFileHelpers: Loading map 'NewMap1' took 0.061

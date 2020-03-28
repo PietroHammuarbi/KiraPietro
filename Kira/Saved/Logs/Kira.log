@@ -549,3 +549,6 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.28-09.08.01:988][ 11]LogAssetRegistry: Asset discovery search completed in 77.3561 seconds
 [2020.03.28-09.08.01:991][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
 [2020.03.28-09.08.01:991][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2020.03.28-09.09.00:354][185]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={F32285BB-4770-C414-E310-C69FB6B5A9E2}
+[2020.03.28-09.09.00:354][185]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={09D3B7DB-4E77-238B-1A28-0E82D734C886}
+[2020.03.28-09.09.00:354][185]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={B7F18D3A-4C9F-0F60-5A42-E7BD6AAB3953}

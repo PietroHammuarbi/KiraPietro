@@ -550,3 +550,25 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.28-09.08.05:168][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2020.03.28-09.08.12:657][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2020.03.28-09.08.17:829][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.28-09.08.57:036][926]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.28-09.08.57:099][926]LogAIModule: Creating AISystem for world NewMap1
+[2020.03.28-09.08.57:122][926]LogAssetEditorManager: Opening Asset editor for World /Game/NewMap1.NewMap1
+[2020.03.28-09.08.57:168][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.03.28-09.08.57:168][926]Cmd: MAP LOAD FILE="../../../../../CollabUnreal/KiraPietro/Kira/Content/NewMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.28-09.08.57:168][926]LightingResults: New page: Lighting Build
+[2020.03.28-09.08.57:168][926]LoadErrors: New page: Loading map: NewMap1.umap
+[2020.03.28-09.08.57:234][926]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.28-09.08.57:234][926]MapCheck: New page: Map Check
+[2020.03.28-09.08.57:234][926]LightingResults: New page: Lighting Build
+[2020.03.28-09.08.57:258][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.03.28-09.08.57:264][926]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.28-09.08.57:291][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.03.28-09.08.57:306][926]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.28-09.08.57:307][926]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,062ms to complete.
+[2020.03.28-09.08.57:307][926]LogFileHelpers: Loading map 'NewMap1' took 0.139
+[2020.03.28-09.09.06:769][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap1" FILE="../../../../../CollabUnreal/KiraPietro/Kira/Content/NewMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.28-09.09.06:809][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.03.28-09.09.07:233][381]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/NewMap14D6BA58A4D14017205DB6EA66B2FA512.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/NewMap1.umap'
+[2020.03.28-09.09.07:282][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap1_BuiltData" FILE="../../../../../CollabUnreal/KiraPietro/Kira/Content/NewMap1_BuiltData.uasset" SILENT=true
+[2020.03.28-09.09.07:321][381]LogSavePackage: Moving '../../../../../CollabUnreal/KiraPietro/Kira/Saved/NewMap1_BuiltDataE04FF4B0439CCB4CF55A609FBF0B1A09.tmp' to '../../../../../CollabUnreal/KiraPietro/Kira/Content/NewMap1_BuiltData.uasset'
+[2020.03.28-09.09.08:399][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms

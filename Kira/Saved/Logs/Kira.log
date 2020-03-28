@@ -491,3 +491,61 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.28-09.07.09:309][  0]LogOcInput: OculusInput pre-init called
 [2020.03.28-09.07.09:484][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
 [2020.03.28-09.07.09:484][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.28-09.07.11:817][  0]LogEngine: Initializing Engine...
+[2020.03.28-09.07.11:857][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.28-09.07.11:908][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.043 s
+[2020.03.28-09.07.12:545][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.28-09.07.12:997][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.28-09.07.13:276][  0]LogInit: XAudio2 using 'LG TV (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.28-09.07.13:370][  0]LogInit: FAudioDevice initialized.
+[2020.03.28-09.07.13:370][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.28-09.07.13:378][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/claudio/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.03.28-09.07.13:379][  0]LogInit: Texture streaming: Enabled
+[2020.03.28-09.07.13:692][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.28-09.07.13:692][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.28-09.07.13:696][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.28-09.07.14:642][  0]LogInit: Transaction tracking system initialized
+[2020.03.28-09.07.16:960][  0]BlueprintLog: New page: Editor Load
+[2020.03.28-09.07.20:653][  0]LocalizationService: Localization service is disabled
+[2020.03.28-09.07.26:213][  0]LogFileCache: Scanning file cache for directory 'D:/CollabUnreal/KiraPietro/Kira/Content/' took 0.01s
+[2020.03.28-09.07.26:213][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.28-09.07.26:213][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.28-09.07.36:974][  0]SourceControl: Source control is disabled
+[2020.03.28-09.07.37:057][  0]Cmd: MAP LOAD FILE="../../../../../CollabUnreal/KiraPietro/Kira/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.28-09.07.37:316][  0]LightingResults: New page: Lighting Build
+[2020.03.28-09.07.37:410][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.28-09.07.37:497][  0]MapCheck: New page: Map Check
+[2020.03.28-09.07.37:497][  0]LightingResults: New page: Lighting Build
+[2020.03.28-09.07.38:167][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.03.28-09.07.44:676][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.03.28-09.07.45:227][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.28-09.07.45:281][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.03.28-09.07.45:281][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.28-09.07.45:282][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,095ms to complete.
+[2020.03.28-09.07.45:282][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 8.249
+[2020.03.28-09.07.54:313][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.03.28-09.07.55:194][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.28-09.07.55:200][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.28-09.07.55:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.28-09.07.55:216][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.28-09.07.55:260][  0]LogCollectionManager: Loaded 0 collections in 0.001140 seconds
+[2020.03.28-09.07.55:342][  0]LogFileCache: Scanning file cache for directory 'D:/CollabUnreal/KiraPietro/Kira/Saved/Collections/' took 0.00s
+[2020.03.28-09.07.55:342][  0]LogFileCache: Scanning file cache for directory 'D:/CollabUnreal/KiraPietro/Kira/Content/Developers/claudio/Collections/' took 0.00s
+[2020.03.28-09.07.55:342][  0]LogFileCache: Scanning file cache for directory 'D:/CollabUnreal/KiraPietro/Kira/Content/Collections/' took 0.00s
+[2020.03.28-09.07.55:342][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.03.28-09.07.55:348][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2863 classes and 680 folders.
+[2020.03.28-09.07.55:545][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.28-09.07.58:220][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.28-09.07.58:260][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.03.28-09.07.59:178][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.28-09.07.59:180][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.28-09.07.59:248][  0]LogSlate: Took 0.034226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.28-09.07.59:651][  0]LogRenderer: Reallocating scene render targets to support 792x428 Format 10 NumSamples 1 (Frame:1).
+[2020.03.28-09.08.00:067][  0]LogSlate: Took 0.299903 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.28-09.08.00:132][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.28-09.08.00:132][  0]LogLoad: (Engine Initialization) Total time: 102.35 seconds
+[2020.03.28-09.08.00:132][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.28-09.08.00:502][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.28-09.08.01:988][ 11]LogAssetRegistry: Asset discovery search completed in 77.3561 seconds
+[2020.03.28-09.08.01:991][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2020.03.28-09.08.01:991][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)

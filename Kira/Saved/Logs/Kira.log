@@ -601,3 +601,26 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.28-14.44.09:817][ 20]LogAssetRegistry: Asset discovery search completed in 86.5589 seconds
 [2020.03.28-14.44.09:820][ 20]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
 [2020.03.28-14.44.09:820][ 20]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2020.03.28-14.44.28:151][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.28-14.44.28:287][208]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.28-14.44.28:421][208]LogAIModule: Creating AISystem for world NewMap1
+[2020.03.28-14.44.28:446][208]LogAssetEditorManager: Opening Asset editor for World /Game/NewMap1.NewMap1
+[2020.03.28-14.44.28:493][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.03.28-14.44.28:493][208]Cmd: MAP LOAD FILE="../../../../../CollabUnreal/KiraPietro/Kira/Content/NewMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.28-14.44.28:493][208]LightingResults: New page: Lighting Build
+[2020.03.28-14.44.28:494][208]LoadErrors: New page: Loading map: NewMap1.umap
+[2020.03.28-14.44.28:508][208]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.28-14.44.28:509][208]MapCheck: New page: Map Check
+[2020.03.28-14.44.28:509][208]LightingResults: New page: Lighting Build
+[2020.03.28-14.44.28:533][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.03.28-14.44.28:555][208]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.28-14.44.28:578][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.03.28-14.44.28:594][208]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.28-14.44.28:594][208]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,056ms to complete.
+[2020.03.28-14.44.28:594][208]LogFileHelpers: Loading map 'NewMap1' took 0.102
+[2020.03.28-14.45.06:629][733]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={B1126E4B-4204-2B10-0C8C-10A0811FBF55}
+[2020.03.28-14.54.07:708][626]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={87D0F109-460B-DF44-B15D-6D8170CCF0FB}
+[2020.03.28-14.54.07:708][626]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={CBAA55A1-4D0C-1808-6513-C99643182F76}
+[2020.03.28-14.57.35:362][246]LogDirectoryWatcher: A directory notification failed for 'D:/CollabUnreal/KiraPietro/Kira/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2020.03.28-14.57.35:362][246]LogDirectoryWatcher: A directory notification failed for 'D:/CollabUnreal/KiraPietro/Kira/Content/Developers/claudio/Collections/' because it could not be accessed. Aborting watch request...
+[2020.03.28-14.57.35:362][246]LogDirectoryWatcher: A directory notification failed for 'D:/CollabUnreal/KiraPietro/Kira/Saved/Collections/' because it could not be accessed. Aborting watch request...

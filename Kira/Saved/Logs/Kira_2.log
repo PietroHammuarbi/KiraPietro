@@ -600,3 +600,20 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.28-16.57.52:118][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
 [2020.03.28-16.57.52:118][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
 [2020.03.28-16.57.52:119][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.28-16.58.31:612][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.28-16.58.33:130][716]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.28-16.58.33:146][716]LogAIModule: Creating AISystem for world NewMap1
+[2020.03.28-16.58.33:150][716]LogAssetEditorManager: Opening Asset editor for World /Game/NewMap1.NewMap1
+[2020.03.28-16.58.33:171][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.03.28-16.58.33:172][716]Cmd: MAP LOAD FILE="../../../../../CollabUnreal/KiraPietro/Kira/Content/NewMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.28-16.58.33:172][716]LightingResults: New page: Lighting Build
+[2020.03.28-16.58.33:172][716]LoadErrors: New page: Loading map: NewMap1.umap
+[2020.03.28-16.58.33:173][716]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.28-16.58.33:173][716]MapCheck: New page: Map Check
+[2020.03.28-16.58.33:173][716]LightingResults: New page: Lighting Build
+[2020.03.28-16.58.33:195][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.03.28-16.58.33:196][716]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.28-16.58.33:222][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.03.28-16.58.33:236][716]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.28-16.58.33:236][716]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,058ms to complete.
+[2020.03.28-16.58.33:236][716]LogFileHelpers: Loading map 'NewMap1' took 0.065

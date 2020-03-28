@@ -548,3 +548,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.28-09.40.40:486][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
 [2020.03.28-09.40.40:486][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
 [2020.03.28-09.40.40:487][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.28-09.41.40:422][379]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={8128D609-49D1-0744-1C49-CDA8D75E40CF}
+[2020.03.28-09.41.40:422][379]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={7D24EAA4-4372-4197-9F1E-62927B3B96D8}
+[2020.03.28-09.41.40:422][379]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={91ADD8AC-4884-1B67-FFB5-648FAF21BDBC}
+[2020.03.28-09.43.25:861][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.28-09.50.41:371][992]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={12C9F4EF-4F2E-95F3-E6BC-45AEA5284DBE}
